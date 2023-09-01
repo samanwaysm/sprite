@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: #009b4e;
+    /*background-color: #28a745;#228c37;*/
+    height: 90px;
+    
+}
+section nav .logo{
+    margin-left: 50px;
+}
+section nav .logo img{
+    width: 120px;
+    margin: 0px ;
+    cursor: pointer;
+    display: inline-block;
+}
+section nav .header-left{
+    list-style: none;
+    margin-left: 50px;
+}
+section nav .header-left li{
+    display: inline-block;
+    margin: 0 15px;
+}
+section nav .header-left li a{
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+section nav .header-left li a:hover{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 6px solid black;
+    padding-bottom: 31px;
+}
+section nav .header-right{
+    margin-left: 50px;
+}
+section nav .facebook{
+    margin-left: 200px;
+}
+section nav .facebook img{
+    margin-left: 100px;
+    width: 25px;
+    margin: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+section nav .facebook img:hover{
+    content: url("img/fb.svg");
+}
+section nav .twitter img{
+    margin-left: 40px;
+    width: 25px;
+    margin: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+section nav .twitter img:hover{
+    content: url("img/tw2.svg");
+}
+section nav .youtube img{
+    margin-left: 40px;
+    width: 25px;
+    margin: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+section nav .youtube img:hover{
+    content: url("img/yt2.svg");
+}
+section nav .instagram img{
+    margin-left: 40px;
+    width: 25px;
+    margin: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+section nav .instagram img:hover{
+    content: url("img/in2.svg");
+}
+section nav .spotify img{
+    margin-left: 40px;
+    width: 25px;
+    margin: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+section nav .spotify img:hover{
+    content: url("img/spotity2.svg");
+}
+section nav .login img{
+    margin-left: px;
+    width: 25px;
+    margin: 45px;
+    cursor: pointer;
+    display: inline-block;
+}
+section nav .login img:hover{
+    content: url("img/login2.svg");
+}
+section .first-container{
+    width: 100%;
+    height: 95vh;
+    background-color: black;
+    
+}
+.left-1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.right-1{
+    padding-top: 90px;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.right-1 img{
+    width: 100%;
+    margin: 0px ;
+}
+.left-1{
+    padding-top: 155px;
+    padding-left: 45px;
+}
+.left-1_one{
+    width: 100%;
+    height: 18%;
+}
+.left-1_one img{
+    width: 337.250px;
+    height: 75.141px;
+}
+.left-1_two{
+    padding-top: 18px;
+}
+.left-1_two h1{
+    width: 690px;
+    font-size: 60.0px;     
+    color: #fff;
+    font-family: aktiv-grotesk, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.2em;
+}
+.left-1_three{
+    padding-left: 7px;
+    padding-top: 40px;
+}
+.left-1_three .lean_more_btn{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFD100;
+    border-style: none;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.left-1_three .lean_more_btn:hover{
+    background-color: black;
+    color: #fff;
+}
+.second-container{
+    width: 100%;
+    height: 60vh;
+}
+
+
+.left-video-div{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: aqua;
+    /* width: 493.234px;
+    height: 278.297px; */
+    margin-left: 120px;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.video_preview{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+}
+.video_preview :hover{
+}
+
+.video_preview iframe{
+    margin-left: 120px;
+    margin-top: 45px;
+    width: 493.234px;
+    height: 278.297; 
+    cursor: pointer;
+        
+}
+.video_text{
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* margin-left: 30px; */
+}
+.video_text_1{
+    height: 45%;
+    padding-top: 45px;
+}
+.video_text_1 h1{
+    width: 700px;
+    font-size: 60px;
+    line-height: 1.0em;
+    color: black;
+    font-weight: 800;
+}
+.video_text_2{
+    height: 38%;
+}
+.video_text_2 h4{
+    width: 700px;
+    font-size: 29.984px;
+    color: black;
+    font-weight: 200;
+}
+.video_text_btn .shop_now-btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color:rgb(255,209,0);
+    border-style: none;
+    font-weight: 800;
+    cursor: pointer;
+}
+.video_text_btn .shop_now-btn:hover{
+    background-color: #555555;
+    color: white;
+}
+.third_text{
+    width: 50%;
+    float: left;
+    height: 67vh;
+    padding-top: 150px;
+    padding-left: 130px;
+}
+.third_text .th_text{
+    color: #009b4e;
+    font-family: aktiv-grotesk, sans-serif;
+    font-size: 46px;
+    font-weight: 800;
+}
+.third_bottle_img{
+    width: 50%;
+    float: left;
+    height: 67vh;
+}
+.third_bottle_img img{
+    width: 650px;
+    height: 438px;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    height: 65vh;
+    background-color: #009b4e;
+    float: left;
+}
+.footer .up-footer{
+    width: 100%;
+    height: 47vh;
+}
+.footer .up-footer .up_one{
+    padding-top: 7%;
+    padding-left: 14%;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.footer .up-footer .up_one img{
+    width: 160px;
+    margin: 0px ;
+    cursor: pointer;
+}
+.footer .up-footer .up_two{
+    width: 25%;
+    float: left;
+}
+.footer .up-footer .up_two p{
+    margin-left: 150px;
+    margin-top: 50px;
+    color: #fff;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.cnt-logo{
+    margin-top: 50px;
+    margin-left: 147px;
+}
+.footer .up-footer .up_two .cnt-facebook{
+    margin-top: 100px;
+    width: 25px;
+    margin: 0.15px;
+    cursor: pointer;
+    display: inline-block;
+    /* float: left; */
+    vertical-align: top;
+}
+.cnt-facebook:hover img{
+    width: 29px;
+}
+.footer .up-footer .up_two .cnt-twitter{
+    width: 25px;
+    margin: 0.15px;
+    cursor: pointer;
+    display: inline-block;
+    /* float: left; */
+    vertical-align: top;
+}
+.cnt-twitter:hover img{
+    width: 30px;
+}
+.footer .up-footer .up_two .cnt-youtube{
+    width: 25px;
+    margin: 0.15px;
+    cursor: pointer;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: top;
+}
+.cnt-youtube:hover img{
+    width: 30px;
+}
+.footer .up-footer .up_two .cnt-instagram{
+    width: 25px;
+    margin: 0.15px;
+    cursor: pointer;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: top;
+}
+.cnt-instagram:hover img{
+    width: 30px;
+}
+.footer .up-footer .up_two .cnt-spotify{
+    width: 25px;
+    margin: 0.15px;
+    cursor: pointer;
+    /* float: left; */
+    display: inline-block;
+    
+}
+.cnt-spotify:hover img{
+    width: 30px;
+}
+.footer .up-footer .up_three{
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    padding-left: 105px;
+    
+}
+.footer .up-footer .up_three .prod{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.footer .up-footer .up_three .Products-section{
+    list-style: none;
+    
+}
+.footer .up-footer .up_three .Products-section li{
+    margin-bottom: 14px;
+}
+.footer .up-footer .up_three .Products-section li a{
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer .up-footer .up_three .Products-section li a:hover{
+    color: black;
+}
+.footer .down-footer{
+    width: 100%;
+    height: 18vh;
+    padding-top: 15px;
+}
+.footer .down-footer .dw_1 p{
+    text-align: center;
+    color: #fff;
+    font-weight: 550;
+}
+.footer .down-footer .dw_2{
+    padding-top: 15px;
+}
+.footer .down-footer .dw_2 .last-list{
+
+    text-align: center;
+}
+.footer .down-footer .dw_2 .last-list li{
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+    
+}
+.footer .down-footer .dw_2 .last-list li a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 550;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.footer .down-footer .dw_2 .last-list li a:hover{
+    color: black;
+}
